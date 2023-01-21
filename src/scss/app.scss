@@ -27,3 +27,15 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+.navbar-burger {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    visibility: hidden;
+  }
+  .navbar-burger {
+    visibility: visible;
+  }
+}
